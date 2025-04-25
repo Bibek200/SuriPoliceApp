@@ -1,5 +1,6 @@
 import React from "react";
-import aboutImage from "../assets/whychoose.jpeg";
+import whyChoseUsImage from "../assets/whychoose.jpeg";
+import aboutImage from "../assets/about-us3.webp";
 import slider1 from "../assets/slider1.jpeg";
 import slider2 from "../assets/slider2.jpeg";
 import slider3 from "../assets/slider3.jpeg";
@@ -87,7 +88,7 @@ const Home = () => {
   <div className="max-w-7xl mx-auto flex flex-col lg:flex-row-reverse items-center gap-10">
     <div className="w-full lg:w-1/2 relative bg-[rgb(223,130,46)] rounded-bl-[50px] rounded-tr-[60px] h-[400px] md:h-[450px] overflow-hidden">
       <img
-        src={aboutImage}
+        src={whyChoseUsImage}
         alt="Why Choose Us"
         className="absolute inset-0 w-full h-full object-cover rounded-tr-[60px] rounded-bl-[50px] p-4"
       />
